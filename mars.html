@@ -12,7 +12,7 @@
             <nav>
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="neo.html">Asteroids</a>
@@ -21,17 +21,26 @@
                     <a href="spy.html">Satellite</a>
                 </li>
                 <li>
-                    <a href="mars.html">Mars</a>
+                    <a class="active" href="mars.html">Mars</a>
                 </li>
             </ul>
             </nav>
         </div>
-        <div class='section main'>
-            <h1>Welcome to our Space Info Portal!</h1>
+        <div class='section sidebar'>
+            <h1>Fantastic Photos from the Curiosity Rover!</h1>
+            <br/>
+            <form>
+                <label>Enter a valid SOL!</label>
+                <input id="marsInput" type="text"></input><br/><br/>
+                <input id="marsSubmit" type="submit" value="Submit"></input>
+            </form>
             <br>
-            <h2>Below is the photo of the day. Above is our options menu.</h2>
+            <hr/>
             <br>
-            <div id="NASAResults"></div>
+            <p>Warning: Some photos are quite small.</p>
+        </div>
+        <div class='section content'>
+            <div id="MarsResults"></div>
         </div>
         <div class='section footer'>
             <a href="https://github.com/mgwillia/Creative2">Creative Lab 2 GitHub</a>

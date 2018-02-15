@@ -12,10 +12,10 @@
             <nav>
             <ul>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="neo.html">Asteroids</a>
+                    <a class="active" href="neo.html">Asteroids</a>
                 </li>
                 <li>
                     <a href="spy.html">Satellite</a>
@@ -26,12 +26,26 @@
             </ul>
             </nav>
         </div>
-        <div class='section main'>
-            <h1>Welcome to our Space Info Portal!</h1>
+        <!--<div class='section sidebar'>
+            <h1>Objects that have come close to Earth!</h1>
+            <br/>
+            <h2>Format: YYYY-MM-DD</h2>
             <br>
-            <h2>Below is the photo of the day. Above is our options menu.</h2>
+            <form>
+                <label>Start Date</label>
+                <input id="START_DATE" type="text"></input>
+                <br>
+                <label>End Date</label>
+                <input id="END_DATE" type="text"></input><br/><br/>
+                <input id="NEOSubmit" type="submit" value="Submit"></input>
+            </form>
             <br>
-            <div id="NASAResults"></div>
+            <hr>
+            <br>
+            <p>Note: Stick to ~7 day ranges.</p>
+        </div>-->
+        <div class='section asteroid'>
+            <div id="NEOResults"></div>
         </div>
         <div class='section footer'>
             <a href="https://github.com/mgwillia/Creative2">Creative Lab 2 GitHub</a>
